@@ -1,0 +1,19 @@
+SELECT        SUM(urun_tutar) AS Expr1
+FROM            verilen_urun
+WHERE        (musteri_kodu = 202)
+
+
+
+
+
+SELECT        SUM(verilen_para) AS Expr1
+FROM            para
+WHERE        (musteri_kodu = 202)
+
+
+
+
+
+SELECT        SUM(sut_tutar) AS Expr1
+FROM            alinan_sut
+WHERE        (musteri_kodu = 202)
